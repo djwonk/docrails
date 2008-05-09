@@ -5,3 +5,4 @@ actionpack/doc
 actionmailer/doc
 activesupport/doc
 railties/doc
+.DS_Store
