@@ -320,8 +320,10 @@ module ActionView
       #   prompt with the question specified. If the user accepts, the form is
       #   processed normally, otherwise no action is taken.
       # * <tt>:disabled</tt> - If true, the user will not be able to use this input.
-      # * <tt>:disable_with</tt> - Value of this parameter will be used as the value for a disabled version 
-      #   of the submit button when the form is submitted.
+      # * <tt>:disable_with</tt> - Value of this parameter will be used as the
+      #   value for a disabled version of the submit button when the form is
+      #   submitted.
+      #     * Has no effect inside a :remote_form_for block
       # * Any other key creates standard HTML options for the tag.
       #
       # ==== Examples
